@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#172a22">
+  <meta name="description" content="Morrow & Moss — thoughtful coffee, slow mornings, and small moments worth keeping.">
+  <title>Morrow & Moss — Coffee, thoughtfully</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">
+    <span class="announcement__dot" aria-hidden="true"></span>
+    <p>Small-batch coffee. Big-time comfort.</p>
+    <a href="#menu">Explore the menu <span aria-hidden="true">↗</span></a>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Morrow and Moss home">
+      <span class="brand__mark" aria-hidden="true">m<span>✳</span></span>
+      <span class="brand__name">morrow <i>&</i> moss</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span>
+    </button>
+
+    <nav class="nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#story">Our story</a>
+      <a href="#menu">The menu</a>
+      <a href="#ritual">Our ritual</a>
+      <a class="nav__cta" href="#visit">Come on in <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__copy">
+        <p class="eyebrow hero__eyebrow anim-up"><span class="eyebrow__line"></span> YOUR EVERYDAY ESCAPE</p>
+        <h1 id="hero-title" class="hero__title anim-up anim-delay-1">A slower sip.<br>A <em>brighter</em> day.</h1>
+        <p class="hero__intro anim-up anim-delay-2">Good things take a little time. We make room for that—with carefully sourced coffee, warm pastries, and a corner that feels like yours.</p>
+        <div class="hero__actions anim-up anim-delay-3">
+          <a class="button button--lime" href="#menu">Find your favourite <span aria-hidden="true">↗</span></a>
+          <a class="quiet-link" href="#story"><span class="quiet-link__play" aria-hidden="true">▶</span> A little about us</a>
+        </div>
+        <div class="hero__proof anim-up anim-delay-3">
+          <div class="proof-avatars" aria-hidden="true"><span>J</span><span>A</span><span>M</span></div>
+          <div><div class="proof-stars" aria-label="Five star rating">★★★★★</div><p>Made for your kind of morning.</p></div>
+        </div>
+        <span class="hero__scribble" aria-hidden="true">stay a while</span>
+      </div>
+
+      <div class="hero__visual anim-fade">
+        <div class="hero__image-wrap">
+          <img class="hero__image" src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=1400&q=88" alt="Freshly brewed coffee in a warm, sunlit café" fetchpriority="high">
+          <div class="image-tint" aria-hidden="true"></div>
+        </div>
+        <div class="orbit orbit--one" aria-hidden="true"></div>
+        <div class="orbit orbit--two" aria-hidden="true"></div>
+        <div class="floating-note floating-note--top">
+          <span class="note-icon" aria-hidden="true">✳</span>
+          <span><strong>Roasted with care</strong><small>Every single morning</small></span>
+        </div>
+        <div class="floating-note floating-note--bottom">
+          <span class="note-coffee" aria-hidden="true">☕</span>
+          <span><strong>Your new ritual</strong><small>Starts right here.</small></span>
+          <span class="note-arrow" aria-hidden="true">↗</span>
+        </div>
+        <span class="image-caption">EST. FOR THE MOMENTS IN BETWEEN</span>
+      </div>
+      <div class="hero__bottomline"><span>01 / 03</span><span class="bottomline__rule"></span><span>SCROLL A LITTLE</span><span class="scroll-arrow" aria-hidden="true">↓</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Our philosophy">
+      <div class="ticker__track" aria-hidden="true">
+        <span>Good coffee, good company</span><b>✳</b><span>Take the long way</span><b>✳</b><span>Stay for one more</span><b>✳</b><span>Good coffee, good company</span><b>✳</b><span>Take the long way</span><b>✳</b><span>Stay for one more</span><b>✳</b>
+      </div>
+    </div>
+
+    <section class="menu-section section-pad" id="menu" aria-labelledby="menu-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow"><span class="eyebrow__line"></span> MADE FRESH, ALWAYS</p>
+        <div class="section-heading__row"><h2 id="menu-title">Little things.<br><em>Lovely flavours.</em></h2><p>Meet the house favourites: lovingly made, never rushed, and best enjoyed with nowhere else to be.</p></div>
+      </div>
+      <div class="menu-grid">
+        <article class="menu-card reveal">
+          <div class="menu-card__image menu-card__image--one"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=900&q=85" alt="Creamy iced coffee in a glass" loading="lazy"><span class="menu-card__number">01</span><span class="menu-card__badge">CROWD FAVOURITE</span></div>
+          <div class="menu-card__body"><div class="menu-card__title"><h3>Cloud Nine Latte</h3><span>₹189</span></div><p>Silky espresso, steamed milk, and a soft little cloud of foam.</p><a href="#visit" class="card-link">Make it yours <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="menu-card reveal reveal-delay-1">
+          <div class="menu-card__image menu-card__image--two"><img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=900&q=85" alt="Dark coffee being poured into a cup" loading="lazy"><span class="menu-card__number">02</span><span class="menu-card__badge">SLOW BREWED</span></div>
+          <div class="menu-card__body"><div class="menu-card__title"><h3>Sunday Pour-over</h3><span>₹159</span></div><p>Bright, balanced, and brewed patiently to bring out every note.</p><a href="#visit" class="card-link">Make it yours <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="menu-card reveal reveal-delay-2">
+          <div class="menu-card__image menu-card__image--three"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=900&q=85" alt="Freshly baked golden pastries" loading="lazy"><span class="menu-card__number">03</span><span class="menu-card__badge">BAKED IN-HOUSE</span></div>
+          <div class="menu-card__body"><div class="menu-card__title"><h3>Butter & Flake</h3><span>₹119</span></div><p>Golden, buttery layers that practically melt into your morning.</p><a href="#visit" class="card-link">Make it yours <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      <p class="menu-footnote reveal">A little note: menu and prices shown are sample portfolio content.</p>
+    </section>
+
+    <section class="story-section" id="story" aria-labelledby="story-title">
+      <div class="story-image reveal"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=1200&q=88" alt="A peaceful café corner filled with warm light" loading="lazy"><span class="story-stamp" aria-hidden="true">A PLACE<br>TO PAUSE <b>✳</b></span></div>
+      <div class="story-copy reveal reveal-delay-1">
+        <p class="eyebrow"><span class="eyebrow__line"></span> A THOUGHTFUL KIND OF CAFE</p>
+        <h2 id="story-title">Not just a coffee.<br><em>A feeling.</em></h2>
+        <p>We believe a good café can change the shape of your day. A familiar face, a warm cup, the playlist you didn't know you needed. That's what we're here for.</p>
+        <p>Every bean has a story. Every table has room for one more. And there's never a rush to leave.</p>
+        <a href="#ritual" class="button button--dark">Get to know us <span aria-hidden="true">↗</span></a>
+        <div class="signature"><span class="signature__line"></span><span>With warmth, always.</span></div>
+      </div>
+    </section>
+
+    <section class="ritual-section section-pad" id="ritual" aria-labelledby="ritual-title">
+      <div class="ritual-heading reveal"><p class="eyebrow"><span class="eyebrow__line"></span> THE MORROW WAY</p><h2 id="ritual-title">Three simple things.<br><em>Done beautifully.</em></h2></div>
+      <div class="ritual-list">
+        <article class="ritual-item reveal"><span class="ritual-item__num">01</span><div><h3>Know your beans</h3><p>Thoughtfully sourced coffee from people who care as much as we do.</p></div><span class="ritual-item__symbol" aria-hidden="true">✳</span></article>
+        <article class="ritual-item reveal reveal-delay-1"><span class="ritual-item__num">02</span><div><h3>Never rush good</h3><p>Small batches, patient brewing, and the extra second that makes a difference.</p></div><span class="ritual-item__symbol" aria-hidden="true">↗</span></article>
+        <article class="ritual-item reveal reveal-delay-2"><span class="ritual-item__num">03</span><div><h3>Make room for you</h3><p>A welcoming seat, a friendly hello, and space to just be yourself.</p></div><span class="ritual-item__symbol" aria-hidden="true">♡</span></article>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="visit-section__pattern" aria-hidden="true"></div>
+      <div class="visit-content reveal"><p class="eyebrow"><span class="eyebrow__line"></span> YOUR TABLE IS WAITING</p><h2 id="visit-title">Come as you are.<br><em>Stay as long as you like.</em></h2><p>Bring a book, bring a friend, or bring absolutely no plans.</p><a class="button button--lime" href="mailto:hello@example.com?subject=Hello%20Morrow%20%26%20Moss">Say hello <span aria-hidden="true">↗</span></a><span class="visit-spark visit-spark--one" aria-hidden="true">✳</span><span class="visit-spark visit-spark--two" aria-hidden="true">✳</span></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand brand--footer" href="#top"><span class="brand__mark" aria-hidden="true">m<span>✳</span></span><span class="brand__name">morrow <i>&</i> moss</span></a>
+    <p>Made slowly, with a little sunshine. <span aria-hidden="true">☼</span></p>
+    <a href="#top" class="back-top">BACK TO TOP ↑</a>
+    <small>© <span id="year">2026</span> Morrow & Moss · Sample concept website</small>
+  </footer>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
+</body>
+</html>
